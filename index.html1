@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL-FURQAN ONLINE ACADEMY</title>
+    <style>
+        /* CSS styles with bright yellow and black color theme */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #ffff00; /* Bright yellow */
+            color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .logo {
+            display: block;
+            max-width: 200px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .form-container {
+            background-color: #fff;
+            border: 2px solid #000; /* Black border */
+            padding: 20px;
+            border-radius: 10px; /* Rounded corners */
+        }
+        form {
+            margin-top: 20px;
+        }
+        form label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        form input, form textarea, form select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+        form button {
+            background-color: #ffff00; /* Bright yellow */
+            color: #333;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 3px;
+            font-size: 14px;
+            border: 2px solid #000; /* Black border */
+        }
+        form button:hover {
+            background-color: #cccc00; /* Darker shade of yellow */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="https://drive.google.com/uc?id=1I-5X611Z-i4_WoJgthBwPPwpEwnv4l9t" alt="AL-FURQAN ONLINE ACADEMY Logo">
+        <h1>AL-FURQAN ONLINE ACADEMY</h1>
+    </header>
+    <div class="container">
+        <section class="form-container">
+            <h2>Admission Form</h2>
+            <form action="#" method="POST">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="course">Select a Course</label>
+                <select id="course" name="course">
+                    <option value="quranTajweed">Learning Quran with Tajweed</option>
+                    <option value="basicQaida">Basic Qaida</option>
+                    <option value="tarjumaTafseer">Tarjuma Tafseer</option>
+                    <option value="memorizingQuran">Memorizing the Quran</option>
+                </select>
+
+                <label for="message">Additional Message</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
